@@ -1,0 +1,20 @@
+"fmp_rat"
+{
+	"map"		"fmp/fmp_nom/fmp_rat"
+	"image"		"./fmp_rat_thumbnail.tga"
+	"comment"	"One of apertures older testchambers"
+}
+
+"fmp_box"
+{
+	"map"		"fmp/fmp_nom/fmp_box"
+	"image"		"./fmp_box_thumbnail.tga"
+	"comment"	"Acceleration yourself to master the test"
+}
+
+"fmp_turret"
+{
+	"map"		"fmp/fmp_nom/fmp_turret"
+	"image"		"./fmp_turret_thumbnail.tga"
+	"comment"	"Fight though waves of turrets"
+}
