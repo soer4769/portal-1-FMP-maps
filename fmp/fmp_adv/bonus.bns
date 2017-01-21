@@ -1,0 +1,18 @@
+"fmp_rat"
+{
+	"map"		"fmp/fmp_adv/fmp_rat_adv"
+	"image"		"./fmp_rat_adv_thumbnail.tga"
+	"comment"	"Are you able to hit bullseye this time?"
+}
+"fmp_box"
+{
+	"map"		"fmp/fmp_adv/fmp_box_adv"
+	"image"		"./fmp_box_adv_thumbnail.tga"
+	"comment"	"How fast have you got chince last time?"
+}
+"fmp_turret"
+{
+	"map"		"fmp/fmp_adv/fmp_turret_adv"
+	"image"		"./fmp_turret_adv_thumbnail.tga"
+	"comment"	"Are you able to get past locked up turrets?"
+}
