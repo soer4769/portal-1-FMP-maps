@@ -9,6 +9,8 @@ To get it set up correctly for editing and play you need to place the downloaded
 
 Thereafter place the prefab folder within the bin folder in the main directory, which is where you also can open the map (.VMF) files with use of Valve's Hammer Editor, named hammer.exe
 
+Read the associated readme file for the background maps if there should be an interest in knowing how to set those up for non-editing purposes.
+
 Download the playable BSP version of the maps (and the background maps) here: 
 
 - http://soer4769.dk/files/downloads/fmp.zip
