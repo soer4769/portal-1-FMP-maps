@@ -1,5 +1,5 @@
 # Compiled maps background setup
-All the following steps are required to get the backgrounds maps to work correctly and takes place from wuthin of the game's main directory
+All the following steps are required to get the backgrounds maps to work correctly and takes place from within of the game's main directory
 
 - 1. Place the console folder into the materials and materialsrc folders
 - 2. Place the "chapterbackgrounds.txt" file in the script folder and create a backup of the original one
