@@ -1,0 +1,363 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 448 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (830730 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3758 texinfos to 1867
+Reduced 498 texdatas to 458 (25480 bytes to 23931)
+Writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+20 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.prt
+ 332 portalclusters
+ 619 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 3882 visible clusters (7.48%)
+Total clusters visible: 51892
+Average clusters visible: 156
+Building PAS...
+Average clusters audible: 315
+visdatasize:29653  compressed from 31872
+writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+3410 faces
+118414 square feet [17051722.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3410 patches before subdivision
+65366 patches after subdivision
+3887 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7428865, max 430
+transfer lists:  56.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1936175, 1881086, 1695523)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(573527, 535684, 468465)
+Build Patch/Sample Hash Table(s).....Done<0.0195 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+3412 of 3832 (89% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 136/1024         6528/49152    (13.3%) 
+brushes               2334/8192        28008/98304    (28.5%) 
+brushsides           16959/65536      135672/524288   (25.9%) 
+planes                5810/65536      116200/1310720  ( 8.9%) 
+vertexes              7797/65536       93564/786432   (11.9%) 
+nodes                 2881/65536       92192/2097152  ( 4.4%) 
+texinfos              1867/12288      134424/884736   (15.2%) 
+texdata                458/2048        14656/65536    (22.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3410/65536      190960/3670016  ( 5.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2904/65536      162624/3670016  ( 4.4%) 
+leaves                3018/65536       96576/2097152  ( 4.6%) 
+leaffaces             4152/65536        8304/131072   ( 6.3%) 
+leafbrushes           3296/65536        6592/131072   ( 5.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27521/512000     110084/2048000  ( 5.4%) 
+edges                17912/256000      71648/1024000  ( 7.0%) 
+LDR worldlights       3887/8192       342056/720896   (47.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            414/32768        4140/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7149/65536       14298/131072   (10.9%) 
+cubemapsamples         124/1024         1984/16384    (12.1%) 
+overlays               101/512         35552/180224   (19.7%) 
+LDR lightdata         [variable]     4128164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29653/16777216 ( 0.2%) 
+entdata               [variable]      141585/393216   (36.0%) 
+LDR ambient table     3018/65536       12072/262144   ( 4.6%) 
+HDR ambient table     3018/65536       12072/262144   ( 4.6%) 
+LDR leaf ambient     13543/65536      379204/1835008  (20.7%) 
+HDR leaf ambient      3018/65536       84504/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12720    ( 0.0%) 
+pakfile               [variable]    13244648/0        ( 0.0%) 
+physics               [variable]      830730/4194304  (19.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9288
+Writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+7 minutes, 19 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 448 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (901461 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3973 texinfos to 1869
+Reduced 502 texdatas to 460 (25556 bytes to 23963)
+Writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+35 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.prt
+ 525 portalclusters
+ 948 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 437 visible clusters (0.78%)
+Total clusters visible: 56254
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 331
+visdatasize:60676  compressed from 75600
+writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+3472 faces
+118414 square feet [17051722.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3472 patches before subdivision
+65104 patches after subdivision
+3887 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7467060, max 424
+transfer lists:  57.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1913279, 1866396, 1690432)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(567382, 532995, 468412)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(170511, 150962, 126913)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(52790, 43961, 35400)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(16422, 12826, 9884)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5151, 3773, 2784)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1622, 1114, 788)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(513, 331, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(163, 98, 64)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(52, 29, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(16, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0375 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+3412 of 3832 (89% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 136/1024         6528/49152    (13.3%) 
+brushes               2721/8192        32652/98304    (33.2%) 
+brushsides           19687/65536      157496/524288   (30.0%) 
+planes                6038/65536      120760/1310720  ( 9.2%) 
+vertexes              7888/65536       94656/786432   (12.0%) 
+nodes                 3096/65536       99072/2097152  ( 4.7%) 
+texinfos              1869/12288      134568/884736   (15.2%) 
+texdata                460/2048        14720/65536    (22.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3472/65536      194432/3670016  ( 5.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2908/65536      162848/3670016  ( 4.4%) 
+leaves                3233/65536      103456/2097152  ( 4.9%) 
+leaffaces             4590/65536        9180/131072   ( 7.0%) 
+leafbrushes           4213/65536        8426/131072   ( 6.4%) 
+areas                   29/256           232/2048     (11.3%) 
+surfedges            27799/512000     111196/2048000  ( 5.4%) 
+edges                18448/256000      73792/1024000  ( 7.2%) 
+LDR worldlights       3887/8192       342056/720896   (47.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            396/32768        3960/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6759/65536       13518/131072   (10.3%) 
+cubemapsamples         124/1024         1984/16384    (12.1%) 
+overlays               101/512         35552/180224   (19.7%) 
+LDR lightdata         [variable]     4147472/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60676/16777216 ( 0.4%) 
+entdata               [variable]      144936/393216   (36.9%) 
+LDR ambient table     3233/65536       12932/262144   ( 4.9%) 
+HDR ambient table     3233/65536       12932/262144   ( 4.9%) 
+LDR leaf ambient     15485/65536      433580/1835008  (23.6%) 
+HDR leaf ambient      3233/65536       90524/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12802    ( 0.0%) 
+pakfile               [variable]    13244648/0        ( 0.0%) 
+physics               [variable]      901461/4194304  (21.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9428
+Writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+21 minutes, 2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+3472 faces
+118414 square feet [17051722.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3472 patches before subdivision
+65104 patches after subdivision
+3887 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7467060, max 424
+transfer lists:  57.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1406526, 1305056, 1093778)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(409191, 360354, 292282)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(123010, 101031, 78133)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(38074, 29141, 21524)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(11868, 8449, 5954)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3730, 2471, 1663)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1177, 726, 467)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(373, 214, 132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(119, 64, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(38, 19, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(12, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0322 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+3412 of 3832 (89% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 136/1024         6528/49152    (13.3%) 
+brushes               2721/8192        32652/98304    (33.2%) 
+brushsides           19687/65536      157496/524288   (30.0%) 
+planes                6038/65536      120760/1310720  ( 9.2%) 
+vertexes              7888/65536       94656/786432   (12.0%) 
+nodes                 3096/65536       99072/2097152  ( 4.7%) 
+texinfos              1869/12288      134568/884736   (15.2%) 
+texdata                460/2048        14720/65536    (22.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3472/65536      194432/3670016  ( 5.3%) 
+hdr faces             3472/65536      194432/3670016  ( 5.3%) 
+origfaces             2908/65536      162848/3670016  ( 4.4%) 
+leaves                3233/65536      103456/2097152  ( 4.9%) 
+leaffaces             4590/65536        9180/131072   ( 7.0%) 
+leafbrushes           4213/65536        8426/131072   ( 6.4%) 
+areas                   29/256           232/2048     (11.3%) 
+surfedges            27799/512000     111196/2048000  ( 5.4%) 
+edges                18448/256000      73792/1024000  ( 7.2%) 
+LDR worldlights       3887/8192       342056/720896   (47.4%) 
+HDR worldlights       3887/8192       342056/720896   (47.4%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            396/32768        3960/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6759/65536       13518/131072   (10.3%) 
+cubemapsamples         124/1024         1984/16384    (12.1%) 
+overlays               101/512         35552/180224   (19.7%) 
+LDR lightdata         [variable]     4147472/0        ( 0.0%) 
+HDR lightdata         [variable]     4147472/0        ( 0.0%) 
+visdata               [variable]       60676/16777216 ( 0.4%) 
+entdata               [variable]      144936/393216   (36.9%) 
+LDR ambient table     3233/65536       12932/262144   ( 4.9%) 
+HDR ambient table     3233/65536       12932/262144   ( 4.9%) 
+LDR leaf ambient     15485/65536      433580/1835008  (23.6%) 
+HDR leaf ambient     15490/65536      433720/1835008  (23.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12802    ( 0.0%) 
+pakfile               [variable]    13244648/0        ( 0.0%) 
+physics               [variable]      901461/4194304  (21.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9428
+Writing c:\program files (x86)\steam\steamapps\common\portal\portal\maps\mine_baner\fmp_turret_cha.bsp
+20 minutes, 1 second elapsed

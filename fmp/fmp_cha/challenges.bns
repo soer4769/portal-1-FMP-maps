@@ -1,0 +1,108 @@
+"fmp_rat"
+{
+	"map"		"fmp/fmp_cha/fmp_rat_cha"
+	"chapter"	""
+	"image"		"./fmp_rat_cha_thumbnail.tga"
+	"comment"	"How good do you know the test?"
+	"lock"		"0"
+
+	"challenges"
+	{
+		"#Bonus_Map_ChallengePortals"
+		{
+			"comment"	"#Bonus_Map_LeastPortalsComment"
+
+			"bronze"		"12"
+			"silver"		"4"
+			"gold"		"2"
+		}
+		"#Bonus_Map_ChallengeSteps"
+		{
+			"comment"	"#Bonus_Map_LeastStepsComment"
+
+			"bronze"		"200"
+			"silver"		"115"
+			"gold"		"60"
+		}
+		"#Bonus_Map_ChallengeTime"
+		{
+			"comment"	"#Bonus_Map_LeastTimeComment"
+
+			"bronze"		"90"
+			"silver"		"50"
+			"gold"		"30"
+		}
+	}
+}
+"fmp_box"
+{
+	"map"		"fmp/fmp_cha/fmp_box_cha"
+	"chapter"	""
+	"image"		"./fmp_box_cha_thumbnail.tga"
+	"comment"	"How good are you to accelerate yourself?"
+	"lock"		"0"
+
+	"challenges"
+	{
+		"#Bonus_Map_ChallengePortals"
+		{
+			"comment"	"#Bonus_Map_LeastPortalsComment"
+
+			"bronze"		"9"
+			"silver"		"5"
+			"gold"		"4"
+		}
+		"#Bonus_Map_ChallengeSteps"
+		{
+			"comment"	"#Bonus_Map_LeastStepsComment"
+
+			"bronze"		"305"
+			"silver"		"215"
+			"gold"		"150"
+		}
+		"#Bonus_Map_ChallengeTime"
+		{
+			"comment"	"#Bonus_Map_LeastTimeComment"
+
+			"bronze"		"320"
+			"silver"		"195"
+			"gold"		"120"
+		}
+	}
+}
+"fmp_turret"
+{
+	"map"		"fmp/fmp_cha/fmp_turret_cha"
+	"chapter"	""
+	"image"		"./fmp_turret_cha_thumbnail.tga"
+	"comment"	"The clock is ticking and the turrets are waiting..."
+	"lock"		"0"
+
+	"challenges"
+	{
+		"#Bonus_Map_ChallengePortals"
+		{
+			"comment"	"#Bonus_Map_LeastPortalsComment"
+
+			"bronze"		"52"
+			"silver"		"38"
+			"gold"		"20"
+		}
+		"#Bonus_Map_ChallengeSteps"
+		{
+			"comment"	"#Bonus_Map_LeastStepsComment"
+
+			"bronze"		"528"
+			"silver"		"442"
+			"gold"		"350"
+		}
+		"#Bonus_Map_ChallengeTime"
+		{
+			"comment"	"#Bonus_Map_LeastTimeComment"
+
+			"bronze"		"720"
+			"silver"		"420"
+			"gold"		"300"
+		}
+	}
+}
