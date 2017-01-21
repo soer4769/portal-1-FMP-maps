@@ -1,0 +1,108 @@
+"fmp_rat"
+{
+	"map"		"fmp/fmp_advcha/fmp_rat_advcha"
+	"chapter"	""
+	"image"		"./fmp_rat_advcha_thumbnail.tga"
+	"comment"	"You already know how to hit bullseye this time right?"
+	"lock"		"0"
+
+	"challenges"
+	{
+		"#Bonus_Map_ChallengePortals"
+		{
+			"comment"	"#Bonus_Map_LeastPortalsComment"
+
+			"bronze"		"5"
+			"silver"		"3"
+			"gold"		"2"
+		}
+		"#Bonus_Map_ChallengeSteps"
+		{
+			"comment"	"#Bonus_Map_LeastStepsComment"
+
+			"bronze"		"500"
+			"silver"		"250"
+			"gold"		"100"
+		}
+		"#Bonus_Map_ChallengeTime"
+		{
+			"comment"	"#Bonus_Map_LeastTimeComment"
+
+			"bronze"		"600"
+			"silver"		"300"
+			"gold"		"150"
+		}
+	}
+}
+"fmp_box"
+{
+	"map"		"fmp/fmp_advcha/fmp_box_advcha"
+	"chapter"	""
+	"image"		"./fmp_box_advcha_thumbnail.tga"
+	"comment"	"Accelerate, accelerate, accelerate..."
+	"lock"		"0"
+
+	"challenges"
+	{
+		"#Bonus_Map_ChallengePortals"
+		{
+			"comment"	"#Bonus_Map_LeastPortalsComment"
+
+			"bronze"		"15"
+			"silver"		"8"
+			"gold"		"5"
+		}
+		"#Bonus_Map_ChallengeSteps"
+		{
+			"comment"	"#Bonus_Map_LeastStepsComment"
+
+			"bronze"		"800"
+			"silver"		"450"
+			"gold"		"300"
+		}
+		"#Bonus_Map_ChallengeTime"
+		{
+			"comment"	"#Bonus_Map_LeastTimeComment"
+
+			"bronze"		"500"
+			"silver"		"240"
+			"gold"		"120"
+		}
+	}
+}
+"fmp_turret"
+{
+	"map"		"fmp/fmp_advcha/fmp_turret_advcha"
+	"chapter"	""
+	"image"		"./fmp_turret_advcha_thumbnail.tga"
+	"comment"	"The turrets are not going anywhere..."
+	"lock"		"0"
+
+	"challenges"
+	{
+		"#Bonus_Map_ChallengePortals"
+		{
+			"comment"	"#Bonus_Map_LeastPortalsComment"
+
+			"bronze"		"50"
+			"silver"		"35"
+			"gold"		"25"
+		}
+		"#Bonus_Map_ChallengeSteps"
+		{
+			"comment"	"#Bonus_Map_LeastStepsComment"
+
+			"bronze"		"900"
+			"silver"		"780"
+			"gold"		"450"
+		}
+		"#Bonus_Map_ChallengeTime"
+		{
+			"comment"	"#Bonus_Map_LeastTimeComment"
+
+			"bronze"		"960"
+			"silver"		"720"
+			"gold"		"480"
+		}
+	}
+}
